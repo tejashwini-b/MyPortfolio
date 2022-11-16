@@ -1,3 +1,45 @@
+/* Styling for columnIndex, styled it with different div to view correctly in mobile view */
+.columnIndex {
+     width: 22%;
+     background-color: #040b14;
+     position: absolute;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     }
+
+.columnIndex img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 100px;
+}
+
+.columnIndex p {
+    color: white;
+    font-size: 25px;
+    left: 50px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.columnIndex .navigation {
+    padding: 30px 10px 0 0;
+}
+.columnIndex .navigation a{
+    margin-left: 20px;
+    line-height: 50px;
+    font-size:18px;
+    font-weight: 100px;
+    color: #a8a9b4;
+    word-spacing: 30px;
+    word-spacing: 40px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* styling for column of other pages */
 .column {
      width: 22%;
      background-color: #040b14;
@@ -81,8 +123,8 @@
          letter-spacing: 1px;
          border-bottom: 3px solid #149ddd;
        }
-
-.column .social a {
+/* for class column and columnIndex */
+.social a {
           font-size: 15px;
           display: inline-block;
           background: #212431;
@@ -96,24 +138,58 @@
           width: 32px;
           height: 32px;
 }
-.column .social a i {
+.social a i {
         position: relative;
         transform: translate(-5%, 55%)
 }
-.column .navigation a i {
+.navigation a i {
   color: #6f7180;
 }
-.column .navigation a:hover
+.navigation a:hover
  {
       color: white;
 }
 
-.column .navigation a:hover i {
+.navigation a:hover i {
      color: #149ddd;
 }
 
+@media (max-width: 600px) {
+    .columnIndex {
+        width: 100%;
+        height: 100%;
+    }
+    .columnIndex img {
+        align: center;
+    }
+
+    .columnIndex p {
+        margin-left: 14%;
+    }
+    .columnIndex .social a {
+        margin-left: 11%;
+    }
+    .column {
+        width: 100%;
+        height: 70%;
+    }
+    .column img {
+        align: center;
+    }
+
+    .column p {
+        margin-left: 14%;
+    }
+    .column .social a {
+        margin-left: 11%;
+    }
+    .front {
+       display: none;
+    }
+
+}
 /* Styling for about.html */
-.abt {
+/*.abt {
         background-color: #f5f8fd;
         position: fixed;
         bottom: 0px;
@@ -126,41 +202,45 @@
         width: 80%;
         height: 110%;
         background-size: cover;
-}
+}*/
 
 .abt h2 {
         color: #173b6c;
         font-size: 20px;
         font-family: "Poppins", sans-serif;
         font-weight: 100px;
-        margin-left: 25px;
+        margin-left: 325px;
 }
 .abt p {
         font-size: 15px;
         font-family: "Arial", sans-serif;
         font-weight: 100px;
-        margin-left: 25px;
+        margin-left: 325px;
         color: slatedarkgray;
+        text-align: justify;
+        margin-right: 25px;
 }
 .abt .moreabt p {
         font-size: 15px;
         font-family: "Arial", sans-serif;
         font-weight: 100px;
-        margin-left: 25px;
+        margin-left: 325px;
         color: slatedarkgray;
+        text-align: justify;
+        margin-right: 25px;
 }
 .abt .moreabt a,
 .abt .moreabt a:visited {
         font-size: 15px;
         margin-right: 10px;
-        margin-left: 25px;
+        margin-left: 325px;
         top: 500px;
         color: #173b6c;
         font-family: "Arial", sans-serif;
 }
 /*Education section*/
 .abt img {
-        margin-left: 25px;
+        margin-left: 305px;
         width: 10%;
         height: auto;
 }
@@ -169,7 +249,7 @@
         font-family: "Arial", sans-serif;
         font-weight: 100px;
         margin-top: -110px;
-        margin-left: 150px;
+        margin-left: 450px;
         color: slatedarkgray;
         font-style: normal;
 }
@@ -177,12 +257,14 @@
         font-size: 15px;
         font-family: "Arial", sans-serif;
         font-weight: 100px;
-        margin-left: 150px;
+        margin-left: 450px;
         color: slatedarkgray;
         line-height:15px;
         font-weight: 100px;
         font-style: normal;
 }
+
+
 /*Styling for Work.html*/
 .exp h2 {
         color: #173b6c;
@@ -217,7 +299,15 @@
         text-align: justify;
         margin-right: 25px;
 }
-
+@media (max-width: 600px) {
+    .exp h3 {
+       margin-top: -70px;
+       margin-left: 380px;
+    }
+    .exp p {
+        margin-left: 380px;
+    }
+}
 /* Styling for project.html */
 
 .project h2 {
@@ -261,4 +351,27 @@
         font-weight: 100px;
         font-style: normal;
         margin-right: 25px;
+}
+@media (max-width: 600px) {
+    .abt, .exp, .project {
+        height:100%;
+        margin-top: 148%;
+        margin-left: -88%;
+        background-color: #f5f8fd;
+        overflow: auto;
+        margin-right: -10px;
+    }
+    .abt img {
+        width: 15%;
+        height: auto;
+    }
+    .abt .edu h3 {
+        margin-top: -110px;
+    }
+
+}
+@media (max-width: 600px) {
+.project p, .project h3, .project h2 {
+        margin-right: 10px;
+    }
 }
