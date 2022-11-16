@@ -300,12 +300,22 @@
         margin-right: 25px;
 }
 @media (max-width: 600px) {
+     .exp h2,
+     .exp img {
+        margin-left: 320px;
+        margin-right: 25px;
+    }
     .exp h3 {
        margin-top: -70px;
-       margin-left: 380px;
+       margin-left: 400px;
+       margin-right: 25px;
     }
     .exp p {
-        margin-left: 380px;
+        margin-left: 400px;
+        margin-right: 25px;
+    }
+    .edu img {
+        margin-left:320px;
     }
 }
 /* Styling for project.html */
@@ -368,10 +378,13 @@
     .abt .edu h3 {
         margin-top: -110px;
     }
-
+     .abt h2, .abt p, .abt .moreabt h2, .abt .moreabt p, .abt .moreabt a {
+        margin-left: 50%;
+    }
 }
 @media (max-width: 600px) {
 .project p, .project h3, .project h2 {
-        margin-right: 10px;
+        margin-right: 25px;
+        margin-left: 50%;
     }
 }
