@@ -363,7 +363,7 @@
         margin-right: 25px;
 }
 @media (max-width: 600px) {
-    .abt, .exp, .project {
+    .abt, .exp {
         height:100%;
         margin-top: 148%;
         margin-left: -88%;
@@ -381,10 +381,17 @@
      .abt h2, .abt p, .abt .moreabt h2, .abt .moreabt p, .abt .moreabt a {
         margin-left: 50%;
     }
+       .project {
+        height:100%;
+        margin-top: 150%;
+        background-color: #f5f8fd;
+        overflow: auto;
+        margin-right: -10px;
+    }
 }
 @media (max-width: 600px) {
 .project p, .project h3, .project h2 {
-        margin-right: 25px;
-        margin-left: 50%;
+        margin-right: 8%;
+        margin-left: 8%;
     }
 }
