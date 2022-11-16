@@ -1,0 +1,264 @@
+.column {
+     width: 22%;
+     background-color: #040b14;
+     position: absolute;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+        }
+
+.column img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 100px;
+}
+
+.column p {
+    color: white;
+    font-size: 25px;
+    left: 50px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.column .navigation {
+    padding: 30px 10px 0 0;
+}
+.column .navigation a{
+    margin-left: 20px;
+    line-height: 50px;
+    font-size:18px;
+    font-weight: 100px;
+    color: #a8a9b4;
+    word-spacing: 30px;
+    word-spacing: 40px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.column .navigation a i{
+    color: #a8a9b4;
+    margin-left:0px;
+    word-spacing: 30px;
+    }
+.front {
+    background-image: url("images/bgimage1.jpg");
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 300px;
+    top: -8px;
+    bottom: -5px;
+    right: -10px;
+    height: auto;
+    width: 80%;
+    height: 110%;
+    background-size: cover;
+}
+.front h1 {
+    position: relative;
+    color: #fff;
+    font-size: 55px;
+    top: 220px;
+    left:200px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+        }
+.front p {
+         position: relative;
+         color: #fff;
+         top: 200px;
+         left:200px;
+         margin-bottom: 50px;
+         font-size: 26px;
+         font-family: "Poppins", sans-serif;
+       }
+
+.front p span {
+         color: #fff;
+         padding-bottom: 4px;
+         letter-spacing: 1px;
+         border-bottom: 3px solid #149ddd;
+       }
+
+.column .social a {
+          font-size: 15px;
+          display: inline-block;
+          background: #212431;
+          color: #fff;
+          padding: 5px 5;
+          top: 0px;
+          margin-left: 25px;
+          margin-right: 5px;
+          border-radius: 50%;
+          text-align: center;
+          width: 32px;
+          height: 32px;
+}
+.column .social a i {
+        position: relative;
+        transform: translate(-5%, 55%)
+}
+.column .navigation a i {
+  color: #6f7180;
+}
+.column .navigation a:hover
+ {
+      color: white;
+}
+
+.column .navigation a:hover i {
+     color: #149ddd;
+}
+
+/* Styling for about.html */
+.abt {
+        background-color: #f5f8fd;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        left: 300px;
+        top: -8px;
+        bottom: -5px;
+        right: -10px;
+        height: auto;
+        width: 80%;
+        height: 110%;
+        background-size: cover;
+}
+
+.abt h2 {
+        color: #173b6c;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100px;
+        margin-left: 25px;
+}
+.abt p {
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-left: 25px;
+        color: slatedarkgray;
+}
+.abt .moreabt p {
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-left: 25px;
+        color: slatedarkgray;
+}
+.abt .moreabt a,
+.abt .moreabt a:visited {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-left: 25px;
+        top: 500px;
+        color: #173b6c;
+        font-family: "Arial", sans-serif;
+}
+/*Education section*/
+.abt img {
+        margin-left: 25px;
+        width: 10%;
+        height: auto;
+}
+.abt .edu h3 {
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-top: -110px;
+        margin-left: 150px;
+        color: slatedarkgray;
+        font-style: normal;
+}
+.abt .edu p {
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-left: 150px;
+        color: slatedarkgray;
+        line-height:15px;
+        font-weight: 100px;
+        font-style: normal;
+}
+/*Styling for Work.html*/
+.exp h2 {
+        color: #173b6c;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100px;
+        margin-left: 300px;
+}
+.exp img {
+        margin-left: 300px;
+        width: 10%;
+        height: auto;
+}
+.exp h3 {
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-top: -110px;
+        margin-left: 450px;
+        color: slatedarkgray;
+        font-style: normal;
+}
+.exp p {
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-left: 450px;
+        color: slatedarkgray;
+        line-height:20px;
+        font-weight: 100px;
+        font-style: normal;
+        text-align: justify;
+        margin-right: 25px;
+}
+
+/* Styling for project.html */
+
+.project h2 {
+        color: #173b6c;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100px;
+        margin-left: 310px;
+        margin-top: 20px;
+}
+.project h3 {
+        font-size: 18px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-top: -110px;
+        margin-left: 310px;
+        color: slatedarkgray;
+        font-style: normal;
+        margin-top: 15px;
+}
+.project p {
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-left: 310px;
+        color: slatedarkgray;
+        line-height:20px;
+        font-weight: 100px;
+        font-style: normal;
+        text-align: justify;
+        margin-right: 25px;
+        text-indent:50px;
+}
+.project p a {
+        font-size: 15px;
+        font-family: "Arial", sans-serif;
+        font-weight: 100px;
+        margin-left: -20px;
+        color: #173b6c;
+        line-height:20px;
+        font-weight: 100px;
+        font-style: normal;
+        margin-right: 25px;
+}
