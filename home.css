@@ -375,6 +375,9 @@
         margin-top: -15%;
         margin-left: 25%;
     }
+    .abt .edu p {
+           margin-left: 25%;
+     }
      .abt h2, .abt p, .abt .moreabt h2, .abt .moreabt p, .abt .moreabt a {
         margin-left: 8%;
     }
