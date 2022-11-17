@@ -302,20 +302,17 @@
 @media (max-width: 600px) {
      .exp h2,
      .exp img {
-        margin-left: 320px;
-        margin-right: 25px;
+        margin-left: 8%;
+        margin-right: 8%;
     }
     .exp h3 {
-       margin-top: -70px;
-       margin-left: 400px;
-       margin-right: 25px;
+       margin-top: -40px;
+       margin-left: 23%;
+       margin-right: 8%;
     }
     .exp p {
-        margin-left: 400px;
-        margin-right: 25px;
-    }
-    .edu img {
-        margin-left:320px;
+        margin-left: 23%;
+        margin-right: 8%;
     }
 }
 /* Styling for project.html */
@@ -363,31 +360,25 @@
         margin-right: 25px;
 }
 @media (max-width: 600px) {
-    .abt, .exp {
+     .abt, .exp, .project {
         height:100%;
-        margin-top: 148%;
-        margin-left: -88%;
-        background-color: #f5f8fd;
+        margin-top: 150%;
         overflow: auto;
         margin-right: -10px;
     }
     .abt img {
         width: 15%;
         height: auto;
+        margin-left: 8%;
     }
     .abt .edu h3 {
-        margin-top: -110px;
+        margin-top: -15%;
+        margin-left: 25%;
     }
      .abt h2, .abt p, .abt .moreabt h2, .abt .moreabt p, .abt .moreabt a {
-        margin-left: 50%;
+        margin-left: 8%;
     }
-       .project {
-        height:100%;
-        margin-top: 150%;
-        background-color: #f5f8fd;
-        overflow: auto;
-        margin-right: -10px;
-    }
+    
 }
 @media (max-width: 600px) {
 .project p, .project h3, .project h2 {
